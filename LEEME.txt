@@ -1,0 +1,12 @@
+FIRELION PDR — SITIO WEB (ES/EN)
+================================
+1) El teléfono de Oscar (214) 682-2089 ya está configurado. Para cambiarlo: js/app.js (CONFIG) y los href "tel:"/"sms:" en index.html.
+   - phone:        número de Oscar en formato +1XXXXXXXXXX  (ej. +12145551234)
+   - phoneDisplay: cómo se ve en la página (ej. (214) 555-1234)
+   - area:         opcional, zona de servicio en español e inglés
+   También cambia "telephone" dentro de index.html (bloque ld+json) para Google.
+2) Sube TODO el contenido de esta carpeta (index.html, css/, js/, assets/) a la raíz
+   del hosting (public_html). No requiere servidor especial ni base de datos.
+3) Textos: cada frase tiene su versión <span class="es"> y <span class="en"> en index.html.
+4) El modelo 3D usa Three.js desde CDN (jsdelivr), así que necesita internet (normal en un sitio publicado).
+Nota: abrir index.html con doble clic (file://) puede bloquear el 3D; pruébalo ya subido o con un servidor local.
